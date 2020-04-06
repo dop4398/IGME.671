@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{5c69b6b7-907d-424f-8f20-883004ed101c}">
+		<property name="name">
+			<value>Terror</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f17a68ae-8a6e-4e8f-9bd5-28ae1e3ac1f8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{52609f25-6a53-45bb-a551-904171a5cbbb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{52609f25-6a53-45bb-a551-904171a5cbbb}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
