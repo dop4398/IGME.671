@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: ../../WotBB - FMOD/WotBB.fspro
-  sourceBankPath: ../../WotBB - FMOD/Build/Desktop
+  sourceBankPath: ..\..\WotBB - FMOD\Build\Desktop
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -32,9 +32,9 @@ MonoBehaviour:
     Value: 3
   SampleRateSettings:
   - Platform: 1
-    Value: 48000
-  - Platform: 2
     Value: 0
+  - Platform: 2
+    Value: 44100
   - Platform: 20
     Value: 0
   LiveUpdateSettings:
@@ -58,7 +58,9 @@ MonoBehaviour:
     Value: 0
   - Platform: 20
     Value: 0
-  BankDirectorySettings: []
+  BankDirectorySettings:
+  - Platform: 2
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
