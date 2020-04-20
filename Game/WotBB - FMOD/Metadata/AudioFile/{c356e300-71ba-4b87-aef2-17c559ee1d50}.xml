@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{c356e300-71ba-4b87-aef2-17c559ee1d50}">
+		<property name="assetPath">
+			<value>skeleton-bonk.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0350113378684807</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6034d70e-93f3-4385-a722-ea7896803a12}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -68,6 +68,7 @@
 		</relationship>
 		<relationship name="modules">
 			<destination>{805e9eca-0710-478a-b5f4-ce8b976445b9}</destination>
+			<destination>{7d97a28f-9f4d-4e14-8de8-2ee6e1f48a47}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{00a6f83d-fa3c-477b-adef-850b8c2c6033}</destination>
@@ -86,6 +87,7 @@
 	<object class="ParameterProxy" id="{bbeff684-cda8-439d-ae5b-a18bd7480d95}">
 		<relationship name="modules">
 			<destination>{805e9eca-0710-478a-b5f4-ce8b976445b9}</destination>
+			<destination>{7d97a28f-9f4d-4e14-8de8-2ee6e1f48a47}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{992e974d-be72-4c55-9bcd-9944af5a2608}</destination>
@@ -136,6 +138,26 @@
 			<destination>{004d40a1-449f-4487-af23-0f66a9b48873}</destination>
 		</relationship>
 	</object>
+	<object class="SoundScatterer" id="{7d97a28f-9f4d-4e14-8de8-2ee6e1f48a47}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>525</value>
+		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="pitchRandomization">
+			<value>2.99999976</value>
+		</property>
+		<relationship name="sound">
+			<destination>{905fa928-01cf-491f-b2a5-6b1ca5544ab8}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{00a6f83d-fa3c-477b-adef-850b8c2c6033}">
 		<property name="name">
 			<value>Footsteps</value>
@@ -166,6 +188,14 @@
 			<destination>{42b84ffe-6b8a-4a24-92b5-2220c7865aee}</destination>
 			<destination>{b1ec51a4-a10b-499e-b3b4-374178b24166}</destination>
 			<destination>{aed48550-51a1-45cc-9953-0b5be7bcc06e}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{905fa928-01cf-491f-b2a5-6b1ca5544ab8}">
+		<relationship name="sounds">
+			<destination>{47d2e38c-542f-4857-8fbd-0da9d974e959}</destination>
+			<destination>{01c823c0-6aa0-489a-9439-a8e9760743b4}</destination>
+			<destination>{a6dcf08e-1177-4a57-8c08-8e8259ffa26c}</destination>
+			<destination>{7a4c093f-7949-44a3-b43b-0b5353093a23}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{1437d3eb-7640-4a75-a11a-0f7984a313bf}">
@@ -200,6 +230,26 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{aed48550-51a1-45cc-9953-0b5be7bcc06e}">
+		<relationship name="audioFile">
+			<destination>{46d16871-913d-4052-a2d3-3e4fd10112c5}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{47d2e38c-542f-4857-8fbd-0da9d974e959}">
+		<relationship name="audioFile">
+			<destination>{67b09e82-a200-4be9-bec2-d236166c523a}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{01c823c0-6aa0-489a-9439-a8e9760743b4}">
+		<relationship name="audioFile">
+			<destination>{c42a08ce-93cb-452a-8e03-9b2fee74e0cc}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a6dcf08e-1177-4a57-8c08-8e8259ffa26c}">
+		<relationship name="audioFile">
+			<destination>{78eae0ae-7e13-493a-a7e3-b419a1f57155}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{7a4c093f-7949-44a3-b43b-0b5353093a23}">
 		<relationship name="audioFile">
 			<destination>{46d16871-913d-4052-a2d3-3e4fd10112c5}</destination>
 		</relationship>

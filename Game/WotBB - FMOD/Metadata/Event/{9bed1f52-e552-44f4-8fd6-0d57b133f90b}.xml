@@ -261,9 +261,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2835ef7e-e10f-4908-9b71-d26ed196e6c4}">
-		<property name="volume">
-			<value>-2</value>
-		</property>
 		<property name="name">
 			<value>Wind Howl</value>
 		</property>
@@ -354,6 +351,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9f2f8d13-59ed-47f4-8263-36fa1f060d01}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Wood Creak</value>
 		</property>
