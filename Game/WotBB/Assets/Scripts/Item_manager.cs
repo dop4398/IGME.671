@@ -19,6 +19,7 @@ public class Item_manager : MonoBehaviour
     private bool lookingAtInteractable = false;
     private float distance;
     private GameObject closest;
+    private GameObject[] rattlers;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class Item_manager : MonoBehaviour
         {
             itemList.Add(item);
         }
+
+        rattlers = GameObject.FindGameObjectsWithTag("RattleAudio");
     }
 
     // Update is called once per frame
@@ -36,8 +39,17 @@ public class Item_manager : MonoBehaviour
     {
         itemCheck();
         interactableCheck();
-        if(itemList.Count <= 0)
+        if(itemList.Count <= 0 || Input.GetKeyDown(KeyCode.L))
         {
+            // Audio change here **************************
+            GameObject.Find("HeartbeatAudio").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("GameState", 0.0f);
+            GameObject.Find("Ambient Audio Source").GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("GameState", 0.0f);
+
+            foreach (GameObject r in rattlers)
+            {
+                r.GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("GameState", 0.0f);
+            }
+            GameObject.Find("VictoryChime").GetComponent<FMODUnity.StudioEventEmitter>().Play();
             SceneManager.LoadScene(4);
         }
     }

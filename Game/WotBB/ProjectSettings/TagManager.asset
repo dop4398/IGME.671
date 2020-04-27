@@ -14,6 +14,8 @@ TagManager:
   - Wood
   - Metal
   - Stone
+  - SkeletonPosition
+  - RattleAudio
   layers:
   - Default
   - TransparentFX

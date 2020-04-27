@@ -14,6 +14,8 @@ public class SceneManagement : MonoBehaviour, IPointerEnterHandler, IPointerExit
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Confined;
+
         hoverOver = GameObject.Find("HoverOver").GetComponent<FMODUnity.StudioEventEmitter>();
         hoverOff = GameObject.Find("HoverOff").GetComponent<FMODUnity.StudioEventEmitter>();
         select = GameObject.Find("Select").GetComponent<FMODUnity.StudioEventEmitter>();
@@ -30,27 +32,23 @@ public class SceneManagement : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
             if (button == "PlayButton")
             {
-                //if (Input.GetMouseButtonUp(0))
+                Cursor.lockState = CursorLockMode.Locked;
                 SceneManager.LoadScene(2);
             }
             else if (button == "MenuButton")
             {
-                //if (Input.GetMouseButtonUp(0))
                 SceneManager.LoadScene(0);
             }
             else if (button == "CreditsButton")
             {
-                //if (Input.GetMouseButtonUp(0))
                 SceneManager.LoadScene(1);
             }
             else if (button == "ResumeButton")
             {
-                //if (Input.GetMouseButtonUp(0))
                 GameObject.FindGameObjectWithTag("UI").GetComponent<GameManager>().TogglePauseMenu();
             }
             else if (button == "QuitButton")
             {
-                //if (Input.GetMouseButtonUp(0))
                 Application.Quit();
             }
         }
@@ -61,6 +59,13 @@ public class SceneManagement : MonoBehaviour, IPointerEnterHandler, IPointerExit
             {
                 SceneManager.LoadScene(0);
             }
+        }
+
+        // Make the mouse unlocked and visible in the main menu
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
         }
     }
     

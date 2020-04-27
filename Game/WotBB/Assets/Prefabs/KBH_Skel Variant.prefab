@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 1660068834788571406}
   m_Layer: 8
   m_Name: RattlingAudio
-  m_TagString: Untagged
+  m_TagString: RattleAudio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/Character/Skeleton Rattle
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 7827556161462249861}
   m_Layer: 9
   m_Name: Force Joint
-  m_TagString: Untagged
+  m_TagString: SkeletonPosition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -17,7 +17,7 @@ public class HeartbeatAudio : MonoBehaviour
         terror = 0.01f;
         radius = 30.0f;
 
-        goSkeletons = GameObject.FindGameObjectsWithTag("Skeleton");
+        goSkeletons = GameObject.FindGameObjectsWithTag("SkeletonPosition");
         UI = GameObject.Find("UI_Manager");
     }
 
@@ -27,7 +27,6 @@ public class HeartbeatAudio : MonoBehaviour
         if (!UI.GetComponent<GameManager>().GetPauseEnabled() && emitter.EventInstance.isValid())
         {
             UpdateTerror();
-            //emitter.SetParameter("Terror", 1.0f);
             emitter.SetParameter("GameState", 2.0f);
         }
         else

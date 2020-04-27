@@ -85,6 +85,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-8977943470640079027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-8903314866958380658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,6 +115,23 @@ MonoBehaviour:
   m_Name: parameter:/Stone Collision/Collision
   m_EditorClassIdentifier: 
   Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8894923824722033745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
   Min: 0
   Max: 2
   Default: 0
@@ -117,12 +151,12 @@ MonoBehaviour:
   Path: event:/UI/Hover Off
   guid: 7f1ad8b3191d634bb4c5ab3b059a213b
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -8866757590162715512}
+  - {fileID: -6318272902295745347}
   MinDistance: 0
   MaxDistance: 0
   Length: 215
@@ -158,6 +192,40 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-8793089271017284688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8768887141360563228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-8748155577974921421
@@ -211,6 +279,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-8675932234789579715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-8672808433150501560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +311,40 @@ MonoBehaviour:
   Name: Collision
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8668198247695471086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-8667752740923201210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-8618605124990515725
@@ -262,6 +381,57 @@ MonoBehaviour:
   lastModified: 637229737402419338
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-8470529360759149715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8393606956920770232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8377591467259416968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
   Exists: 0
 --- !u!114 &-8353091722475443001
 MonoBehaviour:
@@ -327,6 +497,23 @@ MonoBehaviour:
   m_Name: parameter:/Hover On/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8291524752075571653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
   Min: 0
   Max: 2
   Default: 0
@@ -397,15 +584,32 @@ MonoBehaviour:
   Path: event:/Ambience/Graveyard
   guid: 945c44eddbf4af40952845f7892b8a20
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 6379882477571797955}
+  - {fileID: 7428937328985912754}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-8107493796095262380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-8097365895175820481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,15 +625,15 @@ MonoBehaviour:
   Path: event:/Interactables/Metal Collision
   guid: f37b0d7bcdb6a640bb7e2d3d6a213b82
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 6497963065746047196}
+  - {fileID: -4951772043198038517}
   MinDistance: 0
   MaxDistance: 0
-  Length: 729
+  Length: 350
 --- !u!114 &-8064336018162752083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +668,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-8046255730967064824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8017434009895518562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-7996566597700701312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,6 +717,23 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-7925932104365328742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-7861899744099203293
@@ -532,6 +787,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-7642875127441294221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-7559634291579932818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7541313732228817706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,15 +836,32 @@ MonoBehaviour:
   Path: event:/Interactables/Wood Collision
   guid: 03e1701e787fb548a1eb306f75c3a664
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -6020715238839591795}
+  - {fileID: -241091110117497634}
   MinDistance: 0
   MaxDistance: 0
   Length: 304
+--- !u!114 &-7473387379047344382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-7450898981294892802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,6 +930,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-7367730298141266135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-7311701047695414494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,6 +962,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7207694376726564141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-7190333719729874628
@@ -727,6 +1067,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-7015914429928281924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-7004850478526455396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-6991797110209540390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,6 +1118,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-6973876742190948681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-6964666945422237818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,6 +1150,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6939928201361104097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-6891379051857177155
@@ -810,15 +1218,32 @@ MonoBehaviour:
   Path: event:/Character/Skeleton Rattle
   guid: ffe0fa5ff5ef194fbd1ce0dcdb102cbb
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 1954924414120026976}
+  - {fileID: 1521430410789312871}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6780503337065343556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6730084596867627118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,6 +1295,57 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-6688662061537531955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6668460759842502994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6606471407399620045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6578825124989980416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,6 +1380,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-6532803970798860069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6494752907329543380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,12 +1429,12 @@ MonoBehaviour:
   Path: event:/UI/Hover On
   guid: 2a3aa0723febda44973da16cacf26e1d
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 7725791629780923498}
+  - {fileID: 3394614110916853707}
   MinDistance: 0
   MaxDistance: 0
   Length: 187
@@ -962,6 +1455,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-6318272902295745347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-6314162972425517416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -977,7 +1487,7 @@ MonoBehaviour:
   Path: event:/Character/Skeleton Collision
   guid: 38746ef2f5350945a9e058b74258e264
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -985,6 +1495,74 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1035
+--- !u!114 &-6307344270802068669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6264402483965921477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6189244190469379335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-6179147554870710129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6164917448304588756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,15 +1578,32 @@ MonoBehaviour:
   Path: event:/Interactables/Item Pickup
   guid: 569a77c8c1dc784eb09e1d3a5cf324e6
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 4302196898824971946}
+  - {fileID: -3555918344831345739}
   MinDistance: 0
   MaxDistance: 0
   Length: 268
+--- !u!114 &-6124046782880775685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6123122997652205391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,6 +1619,40 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6082954925605087401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6051975244596881491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-6023567612107010850
@@ -1143,7 +1772,7 @@ MonoBehaviour:
   Path: snapshot:/Pause
   guid: b6a5e7789e6fc645bc5624b95f91e711
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1151,6 +1780,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-5785723357207799780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235705366242855
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5777838015786129169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,6 +1849,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5648539857409137047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-5618478270020859582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1217,6 +1881,23 @@ MonoBehaviour:
   Name: Collision
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5611343780435227515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-5590296959763343084
@@ -1288,6 +1969,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5472096283429304981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5459876111991537424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1339,6 +2037,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5296041795934000593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-5278510985654434494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1354,6 +2069,75 @@ MonoBehaviour:
   Name: Collision
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5257920129639026955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5229380221833691437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235592777597735
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5209905306140631924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-5203019081891591937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-5177940898828816994
@@ -1424,6 +2208,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-4951772043198038517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-4933334979851739340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-4914443246024951778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,6 +2257,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4903750823096334258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-4892079518908119975
@@ -1458,6 +2293,74 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-4865385783510855870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4838984307056003418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4788529120626423746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4735657528478080560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-4720632533221680359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1475,6 +2378,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-4708959396986482268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4692669746734779177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-4672084506614791877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1490,6 +2427,57 @@ MonoBehaviour:
   Name: Moving
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4655417118934276120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4634193058166042216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4625357292381806809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-4590262199305833562
@@ -1561,6 +2549,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4479465053215489393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235579648252803
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4403924547524986183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1606,6 +2612,40 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4294207457298803002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4261329923897838410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
   m_EditorClassIdentifier: 
   Name: Collision
   Min: 0
@@ -1680,6 +2720,57 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-4156138355092910527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4145495652859220683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-4134955745879915555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-4112420360279499717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1695,6 +2786,23 @@ MonoBehaviour:
   Name: Collision
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4005712403329865074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-3977746939836973077
@@ -1732,6 +2840,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-3911320646064757109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-3904205060724846496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1764,6 +2889,23 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-3868921047469455083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-3859091622187075837
@@ -1834,6 +2976,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-3703060814626676039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3668472207401850804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1849,7 +3008,7 @@ MonoBehaviour:
   Path: snapshot:/Loss
   guid: ff724073e7ab8a4793fe109087f9981a
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1875,6 +3034,57 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3637204804486930477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-3599173574186899690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-3555918344831345739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-3526327132070183155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1909,6 +3119,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-3414621261489769435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235728785474274
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3362283866853768822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1924,6 +3152,40 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3352995829600608280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-3320577490691968942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-3312423945632244711
@@ -1977,6 +3239,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-3223865993806989051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3171216191807346546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1994,6 +3273,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-3100268890394769124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-3068353004955090400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3056509101047665061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,6 +3324,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3045278756625108452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3036251548013429634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2024,6 +3354,23 @@ MonoBehaviour:
   m_Name: parameter:/Select/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-3021169645221762719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
   Min: 0
   Max: 2
   Default: 0
@@ -2062,6 +3409,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2956382830149242212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2924403151747675564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2075,6 +3439,23 @@ MonoBehaviour:
   m_Name: parameter:/Select/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2906918186435612679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
   Min: 0
   Max: 2
   Default: 0
@@ -2095,6 +3476,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-2766333171724786228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235709604676864
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-2701734191790931845
 MonoBehaviour:
@@ -2131,6 +3530,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-2555215528968495941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-2460334421078599879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2142,6 +3558,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2443668635335231904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
   Min: 0
@@ -2165,6 +3598,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-2423872569800151048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-2385650989049279558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-2326042598204395444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2178,6 +3645,40 @@ MonoBehaviour:
   m_Name: parameter:/Hover On/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2306118271888329122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-2299008114521002603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
   Min: 0
   Max: 2
   Default: 0
@@ -2197,6 +3698,23 @@ MonoBehaviour:
   Name: UI Trigger
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2206155510119108507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-2151499037878859512
@@ -2233,6 +3751,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-2107094848867258445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2080834658186793538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2263,6 +3798,40 @@ MonoBehaviour:
   m_Name: parameter:/Stone Collision/Collision
   m_EditorClassIdentifier: 
   Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2003974447563905579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1999111139808516767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
   Min: 0
   Max: 2
   Default: 0
@@ -2304,6 +3873,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1864241338821568397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-1857137836686567292
@@ -2408,6 +3994,131 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-1654290306245664523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/Player Shriek
+  m_EditorClassIdentifier: 
+  Path: event:/Character/Player Shriek
+  guid: 1e40abf43213ed44939b5390e5d1a495
+  Banks:
+  - {fileID: -3414621261489769435}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1518954633681081568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1402536577380971679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1324345789507305694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1312536090524462030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-1274287899433538942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-1245272210744640020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-1206867945676458837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2423,7 +4134,7 @@ MonoBehaviour:
   Path: event:/UI/Pause
   guid: 75b6c7a13d827a42ae5231b150edb43e
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2463,7 +4174,7 @@ MonoBehaviour:
   Path: event:/UI/Unpause
   guid: 89703eeb9e6d7c4ca2db623f55a5f33a
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2520,12 +4231,12 @@ MonoBehaviour:
   Path: event:/Interactables/Stone Collision
   guid: 40ab9b49d9292640b475063d69457d76
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 9053321810991916188}
+  - {fileID: -6189244190469379335}
   MinDistance: 0
   MaxDistance: 0
   Length: 304
@@ -2559,6 +4270,23 @@ MonoBehaviour:
   m_Name: parameter:/Select/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-782480621296649405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
   Min: 0
   Max: 2
   Default: 0
@@ -2597,6 +4325,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-698510782299198386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-686635704517256398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2610,6 +4355,40 @@ MonoBehaviour:
   m_Name: parameter:/Player Footsteps/Moving
   m_EditorClassIdentifier: 
   Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-660438192751177690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-633433187072085820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
   Min: 0
   Max: 2
   Default: 0
@@ -2631,6 +4410,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-534133770836945376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235710880283396
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-450820953687680354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2642,6 +4439,75 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-432706531737750403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-397278136294737955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-348322452505720385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235703448210193
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-327612927598002689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
   Min: 0
@@ -2682,6 +4548,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-245870654748045179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-245188995034248338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-241091110117497634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-221449129597467904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-182837053844411731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2716,6 +4650,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-97672637000713673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2730,7 +4681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 6608322717728247291}
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   EditorEvents:
   - {fileID: -7541313732228817706}
   - {fileID: -6441215595478742467}
@@ -2749,13 +4700,67 @@ MonoBehaviour:
   - {fileID: -8097365895175820481}
   - {fileID: -3668472207401850804}
   - {fileID: -6858499877621214097}
+  - {fileID: -1654290306245664523}
+  - {fileID: 2661562924069363442}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   StringsBanks:
   - {fileID: 6608322717728247291}
-  stringsBankWriteTime: 637229742529338262
+  stringsBankWriteTime: 637235728785504200
   cacheVersion: 3
+--- !u!114 &6893539591652633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &9908141756088283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &34632993515331355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235715197700560
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &76871069154866444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2771,6 +4776,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &103863268716848825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &124582539644001287
@@ -2824,6 +4846,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &401735910852547593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &413306451758362761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2839,6 +4878,23 @@ MonoBehaviour:
   Name: Collision
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &426419928552664530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &445244901556376615
@@ -2858,6 +4914,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &454500248891153194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235590987781817
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &491696500110529728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2875,6 +4949,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &574365723968380797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &585383075809216146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &671637560471372651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2886,6 +4994,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &695783366941486354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
   m_EditorClassIdentifier: 
   Name: Terror
   Min: 0
@@ -2943,6 +5068,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &784128347885593918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &797670964251613961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2994,6 +5136,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &868100124060238356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &896302858650454481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &924776318188552002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3028,6 +5204,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &940060555504424300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1004186104523473297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &1021520565483787524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3041,6 +5251,108 @@ MonoBehaviour:
   m_Name: parameter:/Player Footsteps/Moving
   m_EditorClassIdentifier: 
   Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1058980713526129933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &1065164529605407889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1098758580795741022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1112111067761065411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1193353222313098685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1228739625520280433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
   Min: 0
   Max: 2
   Default: 0
@@ -3060,6 +5372,23 @@ MonoBehaviour:
   Name: UI Trigger
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1357843137063839919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &1363913570055055983
@@ -3148,6 +5477,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1496957934722522683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &1504854312295687717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3182,6 +5528,93 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &1521430410789312871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &1578565167780196370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235590755899842
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1587844817002510978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1608803733704786364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235712116841342
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1632390669164138550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &1661048004452010083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3193,6 +5626,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1671378689089348872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
   Min: 0
@@ -3282,16 +5732,33 @@ MonoBehaviour:
   Path: event:/Character/Player Footsteps
   guid: e935029be0771e49992d3bec2e5ca4c1
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -899133768814331248}
-  - {fileID: 4127470560331100095}
+  - {fileID: -3637204804486930477}
+  - {fileID: 4607553212806270930}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &1853909254924018443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &1866033893779049788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3411,6 +5878,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &2092534099676919549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &2098436245460266262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &2105036509703756676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3422,6 +5923,40 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &2150202195128395778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2264403609402041219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
   m_EditorClassIdentifier: 
   Name: GameState
   Min: 0
@@ -3497,6 +6032,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &2447671477360664641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &2461305406092195146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &2479129670742135531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3531,6 +6100,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &2561835723930686218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &2563588254091449935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3548,6 +6134,63 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &2627707749238709984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2640839865016165795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2661562924069363442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/Victory Chime
+  m_EditorClassIdentifier: 
+  Path: event:/Character/Victory Chime
+  guid: 599d97e403ce9b4fba8a92fccec27b2f
+  Banks:
+  - {fileID: -3414621261489769435}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7198
 --- !u!114 &2672847886581527688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3684,6 +6327,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &3001696916007574848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3024330255965616238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3154240403722840028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3752,6 +6429,91 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &3274015797001910261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &3324396548488368685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3394614110916853707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &3438032474793926496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &3438756197486520401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &3442071699709127234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3786,6 +6548,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &3536634075895272538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3619504622381505858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3801,6 +6580,23 @@ MonoBehaviour:
   Name: Moving
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3625307339859510683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &3628310560362527463
@@ -3820,6 +6616,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &3632192483873318904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &3639149734096280423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3831,6 +6644,40 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &3674851245915545134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3678226716153431684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
   m_EditorClassIdentifier: 
   Name: GameState
   Min: 0
@@ -3871,6 +6718,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &3808831525702272195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3808976433363050683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &3869708645561421074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3886,6 +6767,23 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &3892190109771519645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &3892223347588153033
@@ -3905,6 +6803,74 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &3900190853674564326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3950861071996187328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &3968609103686708109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4035188294099129458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &4056746036144120394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3916,6 +6882,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4105558170530162844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
   m_EditorClassIdentifier: 
   Name: UI Trigger
   Min: 0
@@ -3974,6 +6957,57 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4197956556646967103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stone Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4266301738760439551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4273796477469694875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &4274635704703332456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4008,6 +7042,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &4311163863596794382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4411496850838209124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &4415161260714205729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4025,6 +7093,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4418288278989091465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4588115989562300859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4593870827038894309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &4607553212806270930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &4638043339278770229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4110,6 +7246,74 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &5089885050851590657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5202172948304001160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &5270498886556628356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5274096413853775204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &5322571853979672377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4144,6 +7348,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &5438965453420179348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5516604889098815383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &5608858173818233084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4157,6 +7395,40 @@ MonoBehaviour:
   m_Name: parameter:/Wood Collision/Collision
   m_EditorClassIdentifier: 
   Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5613557654106855930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5614934997682702145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
   Min: 0
   Max: 2
   Default: 0
@@ -4178,6 +7450,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &5645748990509565047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &5654429190864078022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4193,6 +7482,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5714530089049495720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &5767495393425167170
@@ -4213,7 +7519,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5826334354638566802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5827900870900597221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &5840971891330063701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5856883519554693186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4247,6 +7604,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &6000621134785884658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6000675834387429376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &6014720937309899614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4262,6 +7653,57 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6160010852084085866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6187991588954045762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6238926782973045914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &6242607387613201240
@@ -4281,6 +7723,74 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &6281250977785483434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Select/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6313827701820465713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &6316106261672631148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6335711635350895546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6379882477571797955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,6 +7808,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &6382482253044290867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6393716731948393176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4332,6 +7859,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &6408635768960851266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &6468359571961913304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4347,6 +7891,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6497018925791708595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &6497963065746047196
@@ -4397,11 +7958,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../WotBB - FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637229742529338262
+  lastModified: 637235728785504200
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1990
+    Value: 2070
   Exists: 1
 --- !u!114 &6609352544314347578
 MonoBehaviour:
@@ -4418,6 +7979,23 @@ MonoBehaviour:
   Name: UI Trigger
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6614849005798410267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &6760675529987843117
@@ -4437,6 +8015,57 @@ MonoBehaviour:
   lastModified: 637229737182088298
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &6775101178487365351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6809332081335510949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6830773051285166654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &6875595184255733553
 MonoBehaviour:
@@ -4472,6 +8101,40 @@ MonoBehaviour:
   lastModified: 637229736873783941
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &6934957916721619531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &6940314745712858501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &6965902821642710141
 MonoBehaviour:
@@ -4525,6 +8188,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7337429398523416067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7348250813733723397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4538,6 +8218,23 @@ MonoBehaviour:
   m_Name: parameter:/Stone Collision/Collision
   m_EditorClassIdentifier: 
   Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7359334629747559220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
   Min: 0
   Max: 2
   Default: 0
@@ -4559,6 +8256,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &7417658204094573963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7423585480253792887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4576,6 +8290,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &7428937328985912754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Graveyard/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &7435050635105074977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4587,6 +8318,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &7448826733313344456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
   m_EditorClassIdentifier: 
   Name: GameState
   Min: 0
@@ -4608,6 +8356,23 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &7489155611218778782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &7508810368127871535
@@ -4638,6 +8403,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Skeleton Rattle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &7660412110651123449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
   m_EditorClassIdentifier: 
   Name: GameState
   Min: 0
@@ -4764,6 +8546,74 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &7866509964183450045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7868601076274464570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Heartbeat/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &7894322984255768230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &7911687999889068758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &7947724308770727581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4798,6 +8648,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &8045465863950317472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &8077996998556985484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4813,6 +8680,23 @@ MonoBehaviour:
   Name: Pickup
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8110242943375856414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &8110711752250569741
@@ -4832,6 +8716,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &8120365000976655535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8165754929582764172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8180464738402869532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4847,16 +8765,33 @@ MonoBehaviour:
   Path: event:/Character/Player Heartbeat
   guid: ec69f75cea13094db5703530161d4b11
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4969265506598885788}
-  - {fileID: -2111296618008222519}
+  - {fileID: 3808976433363050683}
+  - {fileID: -8668198247695471086}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &8195920121451412541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8208566331568161922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4890,6 +8825,59 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &8249138865763788530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235588635375461
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8250364109483866889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Player Footsteps/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8258201850497372646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235589078041272
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &8284927760934435088
 MonoBehaviour:
@@ -4925,6 +8913,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &8303412054102111342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover Off/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8402780320484139234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8557706309558874903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4940,6 +8962,41 @@ MonoBehaviour:
   Name: GameState
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &8595875227033552688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235703030350863
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8621638807693121268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Pickup/Pickup
+  m_EditorClassIdentifier: 
+  Name: Pickup
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &8666780340175426745
@@ -5029,6 +9086,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8860204936173833194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hover On/UI Trigger
+  m_EditorClassIdentifier: 
+  Name: UI Trigger
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8894151951306752013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wood Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &8900765885313093088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5044,16 +9135,51 @@ MonoBehaviour:
   Path: event:/Ambience/Forest
   guid: 521fed9b52e5f4448fd60d57b133f90b
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -3171216191807346546}
-  - {fileID: 839689081150235663}
+  - {fileID: 3438756197486520401}
+  - {fileID: -4145495652859220683}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &8909570021799567129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../WotBB - FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637235704014623604
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8941597695802563597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forest/Terror
+  m_EditorClassIdentifier: 
+  Name: Terror
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8949333763182440267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5069,12 +9195,12 @@ MonoBehaviour:
   Path: event:/UI/Select
   guid: 7e8f7b42f89eac48b004c9e0b6cf1181
   Banks:
-  - {fileID: -5590296959763343084}
+  - {fileID: -3414621261489769435}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 124582539644001287}
+  - {fileID: -7004850478526455396}
   MinDistance: 0
   MaxDistance: 0
   Length: 275
@@ -5110,6 +9236,23 @@ MonoBehaviour:
   Name: Terror
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &9044710018466250622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metal Collision/Collision
+  m_EditorClassIdentifier: 
+  Name: Collision
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &9053321810991916188
